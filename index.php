@@ -10,10 +10,10 @@
 <body>
     <form action="number.php" method="post">
         <label for="x"></label>
-        <input type="number" id="x" name="x">
+        <input type="number" id="x" min="10" name="x" required>
 
         <label for="y"></label>
-        <input type="number" id="y" name="y">
+        <input type="number" id="y" max="50" name="y" required>
 
         <input type="submit" name="submit">
     </form>

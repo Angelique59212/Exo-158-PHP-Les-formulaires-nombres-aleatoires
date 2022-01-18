@@ -1,6 +1,7 @@
 <?php
-
-echo mt_rand($_POST['x'],$_POST['y']);
+$min = $_POST['x'];
+$max = $_POST['y'];
+echo mt_rand($min,$max);
 
 
 
